@@ -1,0 +1,40 @@
+<!-- 3.	Сравнение строк
+Напишите программу, которая будет сравнивать количество символов в двух произвольных строках, введенных пользователем, используя prompt.
+
+Пример:
+// Первая строка: Обычная строка
+// Вторая строка: Уже другая строка
+// результат: Обычная строка меньше чем Уже другая строка
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <script>
+        let str1 = prompt("введите строку 1")
+        let str2 = prompt("введите строку 2")
+        if (str1.length  > str2.length) {
+            alert(`${str1} больше чем ${str2}`)
+        }
+        else if (str1.length < str2.length) {
+            alert(`${str1} меньше чем ${str2}`)
+        }
+        else if (str1.length == str2.length) {
+            alert(`${str1} равна ${str2}`)
+        }
+        else{
+            alert(`Попробуйте еще раз`)
+        }
+    </script>
+</body>
+
+</html>

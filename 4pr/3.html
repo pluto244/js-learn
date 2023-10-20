@@ -1,0 +1,24 @@
+<!-- 3. Количество секунд
+Создайте функцию, которая будет выводить количество пройденных секунд в консоль с
+момента загрузки страницы. 
+Функция должна вызываться каждую секунду. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <script>
+        let startTime = Date.now();
+
+        const updateCounter = () =>
+            console.log( Math.floor((Date.now() - startTime) / 1000))
+
+            setInterval(updateCounter, 1000);
+    </script>
+</body>
+</html>

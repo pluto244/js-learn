@@ -1,0 +1,2 @@
+Задача №7 Напишите функцию JavaScript для анализа URL-адреса. 
+Пример вывода: {source:https://github.com/pubnub/python/search?utf8=%E2%9C%93&amp;q=python, protocol:https,host:github.com,port:,query:?utf8=%E2%9C%93&amp;q=p ython,params:{utf8:%E2%9C%93,q:python},file:search,hash:, path:/pubnub/python/search,relative:/pubnub/python/search?utf8=%E2%9C%9 3&amp;q=python,segments:[pubnub,python,search]}

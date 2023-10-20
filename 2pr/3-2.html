@@ -1,0 +1,31 @@
+<!-- // 3. Делители числа
+// Создайте программу, которая запрашивает произвольное число у пользователя и выводит список чисел, которые являются
+делителями данного числа без остатка.
+
+// Например: пользователь вводит числа 45. Программа выводит числа, которые делятся не него без остатка:
+// 1, 3, 5, 9, 15, 45 -->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <script>
+        var integer = prompt("Введите число:")
+        var result = [];
+        for (let i = 0; i < integer; i++) {
+            if (i !== 1 && i !== integer && integer % i == 0) {
+                result.push(i)
+            }
+        
+        }
+        alert(result)
+    </script>
+</body>
+
+</html>
